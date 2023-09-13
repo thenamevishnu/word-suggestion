@@ -1,0 +1,27 @@
+{
+  "name": "word-suggestion",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/thenamevishnu/word-suggestion.git"
+  },
+  "keywords": [
+    "word-suggestion",
+    "word-suggestions",
+    "prefix",
+    "prefix-search",
+    "auto-fill",
+    "auto-complete"
+  ],
+  "author": "@thenamevishnu",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/thenamevishnu/word-suggestion/issues"
+  },
+  "homepage": "https://github.com/thenamevishnu/word-suggestion#readme"
+}
