@@ -1,14 +1,19 @@
 class Node {
-    child: Record<string, Node> = {};
-    isEnd = false;
+    constructor(){
+        this.child = {};
+        this.isEnd = false;
+    }
 }
   
 class MainClass {
-    root: Node = new Node(); 
+    
+    constructor(){
+        this.root = new Node()
+    } 
   
-    UploadArray(array: string[]): void {
+    UploadArray(array) {
         for (const elements of array) {
-            let currentNode: Node = this.root;
+            let currentNode = this.root;
             for (let i = 0; i < elements.length; i++) {
                 const letter = elements[i];
                 const lowerLetter = letter.toLowerCase();
@@ -21,7 +26,7 @@ class MainClass {
             }
     }
   
-    private __traverse(currentNode: Node, prefix: string, words: string[]): string[] {
+    __traverse(currentNode, prefix, words){
         if (currentNode.isEnd) {
             words.push(prefix);
         }
@@ -31,8 +36,8 @@ class MainClass {
         return words;
     }
   
-    searchResponse(prefix: string): string[] {
-        let currentNode: Node = this.root;
+    searchResponse(prefix){
+        let currentNode = this.root;
         for (let i = 0; i < prefix.length; i++) {
             const letter = prefix[i];
             const lowerLetter = letter.toLowerCase();

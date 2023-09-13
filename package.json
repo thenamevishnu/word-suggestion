@@ -1,8 +1,7 @@
 {
   "name": "word-suggestion",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.ts",
+  "version": "1.0.8",
+  "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -24,7 +23,6 @@
     "url": "https://github.com/thenamevishnu/word-suggestion/issues"
   },
   "homepage": "https://github.com/thenamevishnu/word-suggestion#readme",
-  "dependencies": {
-    "word-suggestion": "^1.0.0"
-  }
+  "type": "module",
+  "description": ""
 }
