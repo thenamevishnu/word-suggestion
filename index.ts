@@ -4,7 +4,7 @@ class Node {
 }
   
 class MainClass {
-    root: Node = new Node();
+    root: Node = new Node(); 
   
     UploadArray(array: string[]): void {
         for (const elements of array) {
